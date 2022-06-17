@@ -16,10 +16,10 @@ public class Main {
 
         //todo Задание №3
         boolean hasFuel = false;
-        boolean hasElectricsProblem = true;
-        boolean hasMotorProblem = true;
-        boolean hasTransmissionProblem = true;
-        boolean hasWheelsProblem = true;
+        boolean hasElectricsProblem = false;
+        boolean hasMotorProblem = false;
+        boolean hasTransmissionProblem = false;
+        boolean hasWheelsProblem = false;
         autoService(hasFuel, hasElectricsProblem, hasMotorProblem, hasTransmissionProblem, hasWheelsProblem);
 
         //todo Задание №4
@@ -28,13 +28,13 @@ public class Main {
         Employee secondEmployee = new Employee(2);
         Employee thirdEmployee = new Employee(3);
 
-        vodkaStock.addVodkaEmployee(firstEmployee, 10);
+        vodkaStock.addVodkaEmployee(firstEmployee);
         System.out.println("Количество водки на складе: " + vodkaStock.getVodka());
         System.out.println("Количество испорченного товара, первым работником: " + firstEmployee.getJournalDestroy());
-        vodkaStock.addVodkaEmployee(secondEmployee, 11);
+        vodkaStock.addVodkaEmployee(secondEmployee);
         System.out.println("Количество водки на складе: " + vodkaStock.getVodka());
         System.out.println("Количество испорченного товара, первым работником: " + secondEmployee.getJournalDestroy());
-        vodkaStock.addVodkaEmployee(thirdEmployee, 12);
+        vodkaStock.addVodkaEmployee(thirdEmployee);
         System.out.println("Количество водки на складе: " + vodkaStock.getVodka());
         System.out.println("Количество испорченного товара, первым работником: " + thirdEmployee.getJournalDestroy());
     }
@@ -62,7 +62,7 @@ public class Main {
             account += 2000;
             sail++;
         }
-        if (!(hasElectricsProblem || hasMotorProblem || hasTransmissionProblem || hasWheelsProblem) && hasFuel) {
+        if (!(hasElectricsProblem || hasMotorProblem || hasTransmissionProblem || hasWheelsProblem) && !(hasFuel)) {
             account += 1000;
         }
         if (sail == 2) {

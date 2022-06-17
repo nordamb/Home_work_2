@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd20f659-0e29-4dc4-be02-fad8e46c24df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Home_work_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HomeWorkHard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/Stock.java" afterDir="false" />
+    <list default="true" id="cd20f659-0e29-4dc4-be02-fad8e46c24df" name="Changes" comment="add easy, medium second homework">
+      <change afterPath="$PROJECT_DIR$/src/hard/GeneratorExpertHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hard/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/Stock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +40,21 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hard" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.medium.Main">
-    <configuration name="HomeWorkHard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWorkHard" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Main" />
       <module name="Home_work_2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Main" />
+    <configuration name="hard.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hard.Main" />
       <module name="Home_work_2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,8 +76,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.medium.Main" />
+        <item itemvalue="Application.hard.Main" />
         <item itemvalue="Application.easy.Main" />
-        <item itemvalue="Application.HomeWorkHard" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654769713082</updated>
     </task>
+    <task id="LOCAL-00001" summary="add easy, medium second homework">
+      <created>1655373625040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655373625041</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add easy, medium second homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="add easy, medium second homework" />
   </component>
 </project>

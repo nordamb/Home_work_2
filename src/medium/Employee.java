@@ -16,8 +16,8 @@ public class Employee {
         return journalDestroy;
     }
 
-    public void setJournalDestroy(int journalDestroy) {
-        this.journalDestroy += journalDestroy;
+    public void setJournalDestroy() {
+        this.journalDestroy ++;
         System.out.println(getId() + ": Ура я испортил водку!");
     }
 }

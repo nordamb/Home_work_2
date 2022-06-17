@@ -11,8 +11,8 @@ public class Stock {
         return vodka;
     }
 
-    public void addVodkaEmployee(Employee employee, int amountVodka) {
-        employee.setJournalDestroy(amountVodka);
-        vodka -= amountVodka;
+    public void addVodkaEmployee(Employee employee) {
+        employee.setJournalDestroy();
+        vodka --;
     }
 }
