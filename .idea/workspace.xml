@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd20f659-0e29-4dc4-be02-fad8e46c24df" name="Changes" comment="add easy, medium second homework">
+    <list default="true" id="cd20f659-0e29-4dc4-be02-fad8e46c24df" name="Changes" comment="change medium second homework task 3 and 4">
       <change afterPath="$PROJECT_DIR$/src/hard/GeneratorExpertHomework.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/hard/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medium/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medium/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medium/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/Stock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
       <recent name="hard" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.medium.Main">
+  <component name="RunManager" selected="Application.hard.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.Main" />
       <module name="Home_work_2" />
@@ -75,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.medium.Main" />
         <item itemvalue="Application.hard.Main" />
+        <item itemvalue="Application.medium.Main" />
         <item itemvalue="Application.easy.Main" />
       </list>
     </recent_temporary>
@@ -97,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655373625041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change medium second homework task 3 and 4">
+      <created>1655454361074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655454361075</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +117,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add easy, medium second homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="add easy, medium second homework" />
+    <MESSAGE value="change medium second homework task 3 and 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="change medium second homework task 3 and 4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hard/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Integer.parseInt(num.split(&quot;[А-Я]+&quot;)[2])" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
